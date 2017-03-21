@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Blog Single | Corlate</title>
+    <title>Contact us | 225mm Construct</title>
     
     <!-- core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -24,7 +24,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 col-xs-4">
-                        <div class="top-number"><p><i class="fa fa-phone-square"></i>  +0123 456 70 90</p></div>
+                        <div class="top-number"><p><i class="fa fa-phone-square"></i>  +234 (0) 818 7669 902</p></div>
                     </div>
                     <div class="col-sm-6 col-xs-8">
                        <div class="social">
@@ -74,7 +74,6 @@
     <section id="contact-info">
         <div class="center">                
             <h2>How to Reach Us?</h2>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
         </div>
         <div class="gmap-area">
             <div class="container">
@@ -107,11 +106,10 @@
         <div class="container">
             <div class="center">        
                 <h2>Drop Your Message</h2>
-                <p class="lead">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div> 
             <div class="row contact-wrap"> 
                 <div class="status alert alert-success" style="display: none"></div>
-                <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php">
+                <form id="main-contact-form" class="contact-form" action="https://formspree.io/info@225mmconstructltd.com" method="POST">
                     <div class="col-sm-5 col-sm-offset-1">
                         <div class="form-group">
                             <label>Name *</label>
@@ -123,11 +121,11 @@
                         </div>
                         <div class="form-group">
                             <label>Phone</label>
-                            <input type="number" class="form-control">
+                            <input name="phone" type="number" class="form-control">
                         </div>
                         <div class="form-group">
                             <label>Company Name</label>
-                            <input type="text" class="form-control">
+                            <input name="company_name" type="text" class="form-control">
                         </div>                        
                     </div>
                     <div class="col-sm-5">
@@ -140,7 +138,7 @@
                             <textarea name="message" id="message" required="required" class="form-control" rows="8"></textarea>
                         </div>                        
                         <div class="form-group">
-                            <button type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Submit Message</button>
+                            <button type="submit" value="Send" class="btn btn-primary btn-lg" required="required">Submit Message</button>
                         </div>
                     </div>
                 </form> 
